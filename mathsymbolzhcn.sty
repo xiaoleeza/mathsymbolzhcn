@@ -1,0 +1,19 @@
+% -------------------------------------------------------------- %
+%         基于插图方式的NumGoG{G for Graphicx}                    %
+% -------------------------------------------------------------- %
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{mathsymbolzhcn}[2018/11/11 v1.00 well-designed (TeX)]
+
+\RequirePackage{fontspec}
+\newfontfamily\unicodefont{mathsymbol-zh-cn.otf}
+
+\newcommand{\zhparaleq}{{\unicodefont\symbol{"E000}}}  % 平行且等于
+\newcommand{\zhparalogram}{{\unicodefont\symbol{"E001}}} % 平行四边形
+\newcommand{\zhtriangle}{{\unicodefont\symbol{"E002}}} % 三角形
+\newcommand{\zhsimilar}{{\unicodefont\symbol{"E003}}} % 相似于
+\newcommand{\zhcongruent}{{\unicodefont\symbol{"E004}}}  % 全等于
+
+
+\endinput
+%%
+%% End of file `NumGoG.sty'.
