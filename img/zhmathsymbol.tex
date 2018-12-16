@@ -1,0 +1,73 @@
+\documentclass{standalone}
+%\documentclass{article}
+%\usepackage{geometry}
+%\geometry{paperheight=0.76em,paperwidth=1.1em,top=-2.8pt,bottom=0pt,left=-14.5pt,right=0pt}
+\usepackage{tikz,amsmath}
+
+\newcommand*\zhparaleq{%                                       %平行且等于parallel and equation
+  \mathrel{\text{%
+    \tikz[baseline]
+      \draw (0em,0ex) -- (.8em,0ex)
+            (0em,.35ex) -- (.8em,.35ex)
+            (.24em,.45ex) -- (.37em,1.5ex)
+            (.43em,.45ex) -- (.56em,1.5ex);}}}
+ 
+\newcommand*\zhparalogram{%            %平行四边形parallelogram  
+  \mathord{\text{%
+    \tikz[baseline]
+      \draw (0,.1ex) -- (.8em,.1ex) -- (1em,1.4ex) -- (.2em,1.4ex) -- cycle;}}}
+      
+\newcommand*\zhsimilar{%                                       %相似
+    \mathrel{\text{%
+    \raisebox{0.1ex}{%    %% 这是按照 = 的高度调整的, 若只关注大写字母, 0.3ex 似乎更好看
+    \tikz \draw[baseline] (-.17em,.45ex) arc (90:180:0.23em and 0.45ex) arc (180:270:0.45ex) .. controls (0,-.45ex) and (0em,.45ex) .. (.21em,.45ex) arc (90:0:0.45ex) arc (0:-90:0.23em and 0.45ex);%
+    }%
+}}}
+ 
+\newcommand*\zhcongruent{%                                       %全等
+    \mathrel{\text{%
+    \tikz \draw[baseline] (-.22em,-.4ex) arc (-90:-285:0.4ex) (-.22em,-.4ex) .. controls (0,-.4ex) and (0,.4ex) .. (.22em,.4ex) arc (90:-105:0.4ex) (-.4em,-.75ex) -- (.4em,-.75ex) (-.4em,-1.1ex) -- (.4em,-1.1ex);%
+}}}
+
+\renewcommand\zhparallel{%               %平行
+	\mathrel{\text{\tikz[baseline]
+			\draw (0em,-0.3ex) -- (.4em,1.7ex)
+			(.2em,-0.3ex) -- (.6em,1.7ex);
+}}}
+
+\newcommand*\zhsubsetneqq{%               %中文真子集
+	\mathrel{\text{\tikz
+		\draw[baseline] (.6636em,1.57ex) -- (.192em,1.57ex) arc (90:270:0.4022ex) -- (.6636em,.7674ex) (0,.2558ex) -- (.6636em,.2558ex) (0,.5116ex) -- (.6636em,.5116ex) (.2323em,0ex) -- (.4313em,.7674ex);%
+}}%
+}
+
+\newcommand*\zhsubset{%                    %%中文子集
+	\mathrel{\text{\raisebox{.15ex}{\tikz
+		\draw[baseline] (.6636em,1.57ex) -- (.20235em,1.57ex) arc (90:270:0.4797ex) -- (.6636em,.61ex) (0,.305ex) -- (.6636em,.305ex);%
+}}}%
+}
+
+\newcommand*\zhsupsetneqq{%               %中文反向真子集
+	\mathrel{\text{\tikz
+		\draw[baseline] (-.6636em,1.57ex) -- (-.192em,1.57ex) arc (90:-90:0.4022ex) -- (-.6636em,.7674ex) (0,.2558ex) -- (-.6636em,.2558ex) (0,.5116ex) -- (-.6636em,.5116ex) (-.4313em,0ex) -- (-.2323em,.7674ex);%
+	}}%
+}
+
+\newcommand*\zhsupset{%                    %%中文反向子集
+	\mathrel{\text{\raisebox{.15ex}{\tikz
+		\draw[baseline] (-.6636em,1.57ex) -- (-.20235em,1.57ex) arc (90:-90:0.4797ex) -- (-.6636em,.61ex) (-.6636em,.305ex) -- (0,.305ex);%
+}}}%
+}
+
+\begin{document}
+%$\zhparallel$
+%$\zhparaleq$
+%$\zhparalogram$
+%$\zhtriangle$
+%$\zhsimilar$
+%$\zhcongruent$
+%$\zhsubsetneqq$
+%$\zhsubset$
+%$\zhsupsetneqq$
+$\zhsupset$
+\end{document}

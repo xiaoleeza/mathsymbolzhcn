@@ -1,0 +1,8 @@
+begin_select = 0xE005;
+i = 6;
+count = 5;
+while(i<=count)
+	Select(begin_select+i);
+	Import("C:\\Users\\T\\Desktop\\jiaocheng\\mathsymbolzhcn\\img" + ToString(i) + ".svg");
+	i++;
+endloop;
