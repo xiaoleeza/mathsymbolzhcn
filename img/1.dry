@@ -3,6 +3,6 @@ i = 6;
 count = 5;
 while(i<=count)
 	Select(begin_select+i);
-	Import("C:\\Users\\T\\Desktop\\jiaocheng\\mathsymbolzhcn\\img" + ToString(i) + ".svg");
+	Import("C:\\Users\\T\\Desktop\\jiaocheng\\mathsymbolzhcn\\img\\" + ToString(i) + ".svg");
 	i++;
 endloop;

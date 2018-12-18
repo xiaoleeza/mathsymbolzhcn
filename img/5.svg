@@ -1,6 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10.96pt" height="7.57pt" viewBox="0 0 10.96 7.57" version="1.1">
-<g id="surface21">
-<path style="fill:none;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M -2.193719 -1.715844 C -3.139031 -1.715844 -3.908563 -0.950219 -3.908563 -0.001 C -3.908563 0.612281 -3.580438 1.182594 -3.049188 1.487281 C -2.654656 1.713844 -2.185906 1.776344 -1.748406 1.659156 M -2.193719 -1.715844 C 0.00159375 -1.715844 0.00159375 1.71775 2.193 1.71775 C 3.142219 1.71775 3.907844 0.948219 3.907844 -0.001 C 3.907844 -0.614281 3.583625 -1.180688 3.052375 -1.489281 C 2.657844 -1.715844 2.189094 -1.778344 1.747687 -1.65725 M -3.986688 -3.21975 L 3.985969 -3.21975 M -3.986688 -4.723656 L 3.985969 -4.723656 " transform="matrix(1,0,0,-1,4.682,2.249)"/>
-</g>
-</svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="0 0 11.213333 6.2533331"
+   height="6.2533331"
+   width="11.213333"
+   xml:space="preserve"
+   id="svg2"
+   version="1.1"><metadata
+     id="metadata8"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+     id="defs6" /><g
+     transform="matrix(1.3333333,0,0,-1.3333333,0,6.2533333)"
+     id="g10"><g
+       transform="translate(72,-67.308)"
+       id="g12"><g
+         transform="translate(-67.816,69.869)"
+         id="g14"><g
+           id="g16"><g
+             id="g18"><path
+               id="path20"
+               style="fill:none;stroke:#000000;stroke-width:0.3985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+               d="m -1.69365,1.93225 c -1.2655,0 -2.2914,-0.8651 -2.2914,-1.93225 0,-1.06715 0.86512,-1.93225 1.93227,-1.93225 C 0,-1.93225 0,1.93225 2.09224,1.93225 3.15941,1.93225 4.0245,1.06715 4.0245,0 c 0,-1.06715 -1.02589,-1.93225 -2.29139,-1.93225" /></g></g></g></g></g></svg>
